@@ -1,6 +1,6 @@
 module day1
 	# part 1
-	input = split(read("../data/day1.txt", String))
+	input = split(read("data/day1.txt", String))
 
   input_modified = map(x -> parse(Int64, x), input)
 
